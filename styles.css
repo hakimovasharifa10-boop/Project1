@@ -300,52 +300,91 @@ nav {
   color: #7b7b7b;
   margin-top: 10px;
 }
-.call{
+.call {
   width: 370px;
   height: 230px;
-   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-   padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
 }
-.sec8{
+.sec8 {
   padding: 20px 10%;
 }
-.img_call{
+.img_call {
   display: flex;
   gap: 10px;
   align-items: center;
 }
-.calls{
+.calls {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
 }
-.line span{
+.line span {
   color: #ff5300;
   font-size: 24px;
 }
-.line p{
+.line p {
   font-size: 20px;
   font-weight: 600;
   margin-top: 10px;
 }
-.colgrey{
-  color: #7B7B7B;
+.colgrey {
+  color: #7b7b7b;
   margin-top: 10px;
 }
-.toll{
+.toll {
   color: #ff5300;
 }
-.us{
+.us {
   font-size: 18px;
-  color: #7B7B7B;
+  color: #7b7b7b;
   text-align: center;
 }
-.sec8 h2{
+.sec8 h2 {
   font-size: 40px;
   text-align: center;
 }
-.free{
+.free {
   color: #ff5300;
+}
+.sec9 {
+  padding: 20px 10%;
+}
+.sec9 h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.message {
+  color: #ff5300;
+}
+input {
+  width: 330px;
+  height: 60px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+textarea {
+  width: 665px;
+  height: 160px;
+  padding-left: 10px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  padding-top: 10px;
+}
+.inputs {
+  margin-left: 250px;
+}
+.sec9 button {
+  width: 670px;
+  height: 50px;
+  background-color: #ff5300;
+  color: white;
+  border: none;
+  margin-left: 250px;
+  margin-top: 20px;
+  font-size: 20px;
 }
 @media (max-width: 510px) {
   .links {
@@ -485,44 +524,63 @@ nav {
   .girl_hide {
     display: none;
   }
-  .circles{
+  .circles {
     width: 100%;
   }
-  .circle img{
+  .circle img {
     width: 60px;
     height: 60px;
     margin-top: 30px;
   }
-  .text p{
+  .text p {
     font-size: 12px;
   }
-  .text h6{
+  .text h6 {
     font-size: 16px;
     width: 80%;
   }
-  .circle{
+  .circle {
     align-items: center;
   }
-  .person img{
+  .person img {
     width: 50px;
   }
-  .person{
+  .person {
     margin-top: 20px;
   }
-  .sec7 h2{
+  .sec7 h2 {
     font-size: 30px;
   }
-  .sec8{
+  .sec8 {
     width: 100%;
   }
-  .calls{
+  .calls {
     flex-direction: column;
     gap: 20px;
   }
-  .call{
+  .call {
     width: 100%;
   }
-  .sec8 h2{
+  .sec8 h2 {
     font-size: 30px;
+  }
+  .sec9 {
+    width: 100%;
+  }
+  input {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .inputs{
+    margin-left: 0px;
+  }
+  textarea{
+    margin-left: 0px;
+    width: 100%;
+  }
+  .sec9 button{
+    width: 100%;
+    margin-left: 0px;
   }
 }
