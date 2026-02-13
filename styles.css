@@ -386,6 +386,9 @@ textarea {
   margin-top: 20px;
   font-size: 20px;
 }
+.sec10{
+  padding: 20px 10%;
+}
 @media (max-width: 510px) {
   .links {
     display: none;
@@ -582,5 +585,9 @@ textarea {
   .sec9 button{
     width: 100%;
     margin-left: 0px;
+  }
+  .sec10 img{
+    width: 100%;
+    height: 200px;
   }
 }
