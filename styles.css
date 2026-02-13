@@ -55,6 +55,38 @@ nav {
 .burger_hidden {
   display: none;
 }
+.sec2 {
+  padding: 80px 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.right_sec2 h6 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #7b7b7b;
+}
+.right_sec2 h2 {
+  font-size: 42px;
+  width: 90%;
+}
+.right_sec2 p {
+  color: #7b7b7b;
+  font-size: 16px;
+  margin: 10px 0px;
+}
+.making {
+  color: #ff5300;
+}
+.right_sec2 button {
+  padding: 14px 20px;
+  background-color: #ff5300;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+
+  color: white;
+  font-size: 18px;
+}
 @media (max-width: 510px) {
   .links {
     display: none;
@@ -88,5 +120,32 @@ nav {
   }
   .right_sec1 img {
     width: 100%;
+  }
+  .sec2 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .left_sec2 img {
+    width: 100%;
+  }
+  .left_sec2 {
+    width: 100%;
+  }
+  .right_sec2 h2 {
+    font-size: 28px;
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .right_sec2 {
+    margin-top: 40px;
+  }
+  .right_sec2 p {
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+  }
+  .right_sec2 button {
+    display: block;
+    margin: 20px auto;
   }
 }
