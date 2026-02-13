@@ -242,6 +242,64 @@ nav {
   font-weight: 400;
   margin-bottom: 20px;
 }
+.circles {
+  width: 570px;
+  height: 290px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.img img {
+  width: 130px;
+  height: 130px;
+}
+.circle {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.person {
+  display: flex;
+  gap: 10px;
+}
+.sec7 {
+  padding: 20px 10%;
+}
+.boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.page {
+  color: #7b7b7b;
+  text-align: center;
+  font-size: 18px;
+}
+.sec7 h2 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+.blog {
+  color: #ff5300;
+}
+.text p {
+  color: #ff5300;
+}
+.text h6 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #373737;
+  width: 70%;
+  margin-top: 10px;
+}
+.person {
+  align-items: center;
+  margin-top: 10px;
+}
+.name span {
+  color: #7b7b7b;
+  margin-top: 10px;
+}
 @media (max-width: 510px) {
   .links {
     display: none;
@@ -373,5 +431,38 @@ nav {
   }
   .mem {
     width: 100%;
+  }
+  .sec7 {
+    width: 100%;
+  }
+  .girl_hide {
+    display: none;
+  }
+  .circles{
+    width: 100%;
+  }
+  .circle img{
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+  }
+  .text p{
+    font-size: 12px;
+  }
+  .text h6{
+    font-size: 16px;
+    width: 80%;
+  }
+  .circle{
+    align-items: center;
+  }
+  .person img{
+    width: 50px;
+  }
+  .person{
+    margin-top: 20px;
+  }
+  .sec7 h2{
+    font-size: 30px;
   }
 }
