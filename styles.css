@@ -87,6 +87,23 @@ nav {
   color: white;
   font-size: 18px;
 }
+.sec3 {
+  padding: 20px 10%;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 280px;
+  height: 220px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.card p {
+  margin-top: 20px;
+}
 @media (max-width: 510px) {
   .links {
     display: none;
@@ -147,5 +164,19 @@ nav {
   .right_sec2 button {
     display: block;
     margin: 20px auto;
+  }
+  .sec3 {
+    width: 100%;
+    padding: 10px 5%;
+  }
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card {
+    width: 100%;
+  }
+  .card p{
+    font-size: 20px;
   }
 }
