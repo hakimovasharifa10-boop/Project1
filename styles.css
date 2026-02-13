@@ -88,7 +88,7 @@ nav {
   font-size: 18px;
 }
 .sec3 {
-  padding: 20px 10%;
+  padding: 40px 10%;
 }
 .cards {
   display: flex;
@@ -100,6 +100,11 @@ nav {
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.05);
 }
 .card p {
   margin-top: 20px;
@@ -124,6 +129,11 @@ nav {
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   background-color: white;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.plan:hover {
+  transform: scale(1.05);
 }
 .left-sec4 {
   width: 75%;
@@ -165,7 +175,7 @@ nav {
   color: #ff5300;
 }
 .sec5 {
-  padding: 20px 10%;
+  padding: 40px 10%;
 }
 .member {
   width: 270px;
@@ -173,6 +183,11 @@ nav {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   text-align: center;
   margin-top: 40px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.member:hover {
+  transform: scale(1.05);
 }
 .members {
   display: flex;
@@ -206,6 +221,11 @@ nav {
   background-color: #ff5300;
   color: white;
   padding: 30px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.mem:hover {
+  transform: scale(1.05);
 }
 .mems {
   display: flex;
@@ -247,6 +267,11 @@ nav {
   height: 290px;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.circles:hover {
+  transform: scale(1.05);
 }
 .img img {
   width: 130px;
@@ -262,7 +287,7 @@ nav {
   gap: 10px;
 }
 .sec7 {
-  padding: 20px 10%;
+  padding: 40px 10%;
 }
 .boxes {
   display: flex;
@@ -305,9 +330,14 @@ nav {
   height: 230px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   padding: 20px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.call:hover {
+  transform: scale(1.05);
 }
 .sec8 {
-  padding: 20px 10%;
+  padding: 40px 10%;
 }
 .img_call {
   display: flex;
@@ -348,7 +378,7 @@ nav {
   color: #ff5300;
 }
 .sec9 {
-  padding: 20px 10%;
+  padding: 40px 10%;
 }
 .sec9 h2 {
   font-size: 40px;
@@ -387,14 +417,71 @@ textarea {
   font-size: 20px;
 }
 .sec10 {
-  padding: 20px 10%;
+  padding: 40px 10%;
 }
 .rounds {
   display: flex;
   justify-content: space-between;
 }
+.round {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.round:hover {
+  transform: scale(1.05);
+}
 .sec11 {
+  padding: 40px 10%;
+}
+.foot {
+  padding: 50px 10%;
+  background-color: #373737;
+  color: #ffffff;
+}
+.rows {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.row {
+  width: 30%;
+  font-size: 14px;
+  line-height: 24px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+}
+.inbut {
+  display: flex;
+  margin-top: 20px;
+}
+.emfoot {
+  width: 240px;
+  height: 60px;
+  background-color: transparent;
+}
+.inbut button {
+  width: 80px;
+  height: 60px;
+  background-color: #ff5300;
+}
+.foot h6 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.bottom_foot {
+  background-color: #ff5300;
+  color: white;
   padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.bot {
+  display: flex;
+  gap: 10px;
+  width: 70%;
+  align-items: center;
 }
 @media (max-width: 510px) {
   .links {
@@ -517,7 +604,7 @@ textarea {
     width: 100%;
   }
   .sec5 h2 {
-    width: 100%git;
+    width: 100%;
   }
   .hide {
     display: none;
@@ -600,8 +687,20 @@ textarea {
   .sec11 {
     width: 100%;
   }
-  .round{
+  .round {
     width: 50px;
     height: 50px;
+  }
+  .rows {
+    flex-direction: column;
+  }
+  .row {
+    width: 100%;
+  }
+  .arrow {
+    display: none;
+  }
+  .bot{
+    width: 100%;
   }
 }
